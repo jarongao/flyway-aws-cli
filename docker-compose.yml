@@ -1,0 +1,9 @@
+version: '3'
+services:
+  migrator:
+    platform: linux/amd64
+    container_name: 'repowr-flyway-migrator'
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: jarongao/flyway-aws-cli
