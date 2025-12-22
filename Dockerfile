@@ -1,4 +1,4 @@
-FROM flyway/flyway:10.5.0
+FROM flyway/flyway:11.20.0
 
 RUN apt-get update -y && \
 	apt-get install -y \
