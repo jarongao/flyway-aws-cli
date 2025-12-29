@@ -1,7 +1,7 @@
 services:
   migrator:
     platform: linux/amd64
-    container_name: 'repowr-flyway-migrator'
+    container_name: 'flyway-migrator'
     build:
       context: .
       dockerfile: ./Dockerfile
